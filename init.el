@@ -5,6 +5,7 @@
     global
     backup
     ido
+    magit
     paredit
     registers)
   "A list of config files to load.")
