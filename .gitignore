@@ -39,3 +39,5 @@ tramp
 
 # places
 /places
+/.mc-lists.el
+/recentf

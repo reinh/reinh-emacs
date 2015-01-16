@@ -6,12 +6,33 @@
 (package-initialize)
 
 (defvar my-packages
-  '(better-defaults
+  '(ace-window
+    adoc-mode
+    better-defaults
+    company
+    diminish
+    dired-details
+    discover
+    expand-region
     find-file-in-project
+    gist
     haskell-mode
+    hindent
     magit
+    multiple-cursors
+    nyan-mode
+    org-present
+    ox-asciidoc
+    ox-gfm
+    ox-pandoc
+    ox-reveal
     paredit
-    smex)
+    prodigy
+    shm
+    smex
+    weechat
+    writeroom-mode
+    yasnippet)
   "A list of packages to ensure are installed at launch.")
 
 (defun packages-installed-p ()
